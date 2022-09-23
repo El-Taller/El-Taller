@@ -1,0 +1,70 @@
+body {
+    background-color:cadetblue;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: 'Cinzel';
+}
+.encabezado {
+    background-color: white;
+}
+#menu{
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .menu_bar {
+    display: none;
+  }
+  
+  header nav ul {
+    background: rgba(0, 0, 0, 0.822);
+  }
+  
+  #contenedor {
+    width: calc(25% - 2 em);
+    margin: 2em;
+  }
+  
+  .imagen {
+    width: 60%;
+  }
+  
+  nav ul li a:hover {
+    background: rgba(80, 78, 78, 0.637);
+  }
+  
+  @media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+  
+    .menu_bar {
+        display: block;
+        width: 100%;
+    }
+  
+    #menu_secundario {
+        background: rgba(0, 0, 0, 0.822);
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        position: sticky;
+        overflow: hidden;
+        list-style: none;
+        /*position: fixed;*/
+  
+    }
+    ul li a:hover {
+        display: block;
+        float: none;
+        background: rgba(80, 78, 78, 0.637);
+    }
+    .navbar{
+        float: right;
+        font-size: 40px;
+    }
+    .imagen {
+      width: 90%;
+    }
+  }  
